@@ -1,0 +1,133 @@
+/* Selectores de elementos */
+
+body {
+    margin: 0;
+    background-color: #F5E6D3;
+    color: #1A2C4E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+    background: linear-gradient(45deg, #1A2C4E, #2A3C5E);
+    color: #C0A060;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+footer {
+    padding: 0 20px;
+    margin: 2rem 0;
+}
+
+section {
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+}
+
+article {
+    margin-bottom: 2rem;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #C0A060;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+small {
+    font-size: 0.875rem;
+}
+
+p {
+    margin-bottom: 1rem
+}
+
+a {
+    color: #1A3C8C;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C0A060;
+    text-decoration: underline;
+}
+
+img {
+    margin: 2rem;
+    max-width: 1200px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.02)
+}
+
+/* Clases de componentes */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.card-news {
+    background-color: #FFFFFF;
+    padding: 1.25rem;
+    border: 1px solid rgba(192,160,96,0.2);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Clases de utilidad */
+
+/* Colores primarios */
+
+.color-crema {
+    color: #F5E6D3;
+}
+
+.color-dorado {
+    color: #C0A060;
+}
+
+.color-blue {
+    color: #1A2C4E;
+}
+
+/* Colores secundarios */
+
+.color-rojo-horda {
+    color: #8C1616;
+}
+
+.color-azul-alianza {
+    color: #1A3C8C;
+}
+
+.color-gris-neutro {
+    color: #707070;
+}
